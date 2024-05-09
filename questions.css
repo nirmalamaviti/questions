@@ -1,0 +1,50 @@
+.article {
+    margin-bottom: 20px;
+  }
+  .Que {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1),
+      0px 1px 3px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  .Que-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: pointer;
+  }
+  .Qtext {
+    display: none;
+    padding: 10px;
+  }
+
+  .plusicon i {
+    color: green;
+  }
+
+  .minusicon i {
+    color: red;
+    display: none;
+  }
+
+  .Que.expanded .minusicon i {
+    display: inline-block;
+  }
+  .heading {
+    font-size: 45px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+  .questions {
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+  }
